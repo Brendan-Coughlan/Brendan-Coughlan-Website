@@ -1,0 +1,43 @@
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 18px;
+    border: 0px;
+    background: none;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    margin: -10px -10px 5px -10px;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+  }
